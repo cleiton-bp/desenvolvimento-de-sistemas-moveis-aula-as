@@ -53,11 +53,13 @@ class AuthService {
       );
       user = credential.user;
       _resetControllers();
+      _setLoading(false);
       Navigator.pushReplacementNamed(context, "/home");
     } on FirebaseAuthException {
       _setErrorCredential(true);
     } catch (e) {
       _setErrorGeneric(true);
+      _setLoading(false);
     }
   }
 
@@ -71,9 +73,11 @@ class AuthService {
         password: passwordControllerRegister.text,
       );
       _resetControllers();
+      _setLoading(false);
       Navigator.pushReplacementNamed(context, "/");
     } catch (e) {
       _setErrorGeneric(true);
+      _setLoading(false);
     }
   }
 
