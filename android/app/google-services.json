@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "398736212487",
+    "project_id": "autenticao-c5ff4",
+    "storage_bucket": "autenticao-c5ff4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398736212487:android:03da98060f5f23058b60a2",
+        "android_client_info": {
+          "package_name": "com.example.autentocacao"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzKmYZ97Tv4_ScgsQLqjcBpJPAYJeZYHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
